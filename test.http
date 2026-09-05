@@ -1,0 +1,11 @@
+### Test Resume Upload
+
+POST http://localhost:8080/api/resume/extract
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="resume.pdf"
+Content-Type: application/pdf
+
+< C:\Users\ADMIN\Downloads\resume_karthik_rajkumar (6).pdf
+--WebAppBoundary--
